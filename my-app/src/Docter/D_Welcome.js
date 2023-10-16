@@ -17,7 +17,7 @@ export default function D_Welcome() {
         axios.get("http://localhost:1234/fetchDetail")
         .then(res=>{
              console.log(res.data)
-           
+            //  setProduct(res.data);
         }).catch(err=>{console.log(err)})
     }
 
